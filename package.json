@@ -1,0 +1,43 @@
+{
+  "name": "@firstandthird/generator-static-site",
+  "version": "2.0.0",
+  "description": "Yo generator for github deployment of static sites hosted on S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/generator-static-site.git"
+  },
+  "keywords": [
+    "s3",
+    "static",
+    "site",
+    "github",
+    "workflows",
+    "yo"
+  ],
+  "author": "First + Third",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/firstandthird/generator-static-site/issues"
+  },
+  "files": [
+    "generators"
+  ],
+  "homepage": "https://github.com/firstandthird/generator-static-site#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-firstandthird": "^5.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "yeoman-generator": "^4.5.0"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
