@@ -1,6 +1,6 @@
 {
   "name": "@firstandthird/generator-static-site",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Yo generator for github deployment of static sites hosted on S3",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "yo"
   ],
   "author": "First + Third",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/firstandthird/generator-static-site/issues"
   },
